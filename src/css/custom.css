@@ -1,0 +1,86 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-footer-background-color: none;
+  --ifm-code-font-size: 95%;
+  --ifm-global-shadow-lw: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05) !important;
+  --text-gray: #4a5568 !important;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+.navbar__title{
+  color: var(--ifm-color-primary-darkest);
+}
+.hero__title{
+  font-size: 4rem;
+  margin-top: 64px;
+  letter-spacing: -1px;
+}
+.hero__subtitle{
+  font-size: 2rem;
+  max-width: 70%;
+}
+.hero__title,
+.hero__subtitle{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url('https://media.giphy.com/media/YV3hvYumOAvWNLRAPH/source.gif');
+  background-position: center;
+}
+html[data-theme="dark"] .hero__title,
+html[data-theme="dark"] .hero__subtitle {
+  background-image: url('https://media.giphy.com/media/26vwcbtjY7cDjuYrqL/source.gif');
+} 
+.no-margin{
+  margin: 0 !important;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.p-16{
+  padding: 16px;
+}
+.mr-16{
+  margin-right: 16px;
+}
+.mr-8{
+  margin-right: 8px;
+}
+.mt-8{
+  margin-top:8px;
+}
+.mt-16{
+  margin-top:16px;
+}
+.mt-64{
+  margin-top:64px;
+}
+.text-gray{
+  color: var(--text-gray);
+}
+img.card{
+  transition: all .3s;
+}
+img.card:hover{
+  transform: scale(1.02);
+}
+
